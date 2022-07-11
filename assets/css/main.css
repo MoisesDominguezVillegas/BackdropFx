@@ -1,0 +1,25 @@
+:root{
+   --colorFondo:#187ef3;
+   --colorSombra: #FFF;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+body{
+    background: var(--colorFondo);
+    text-align: center;
+}
+img{
+    margin:10rem 2rem;
+}
+.logo{
+    box-shadow: 0 0 1.5rem 1rem var(--colorSombra);
+}
+.logo2{
+    filter: drop-shadow(0 0 1.5rem var(--colorSombra));
+}
